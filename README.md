@@ -176,14 +176,7 @@ Exposicion
 
 <img width="183" height="203" alt="Captura de pantalla 2025-09-01 101909" src="https://github.com/user-attachments/assets/d887dab0-9b06-4d3f-aaf2-13ec73039ee7" />
 
-
-
-
-
-
-
-
-
+------------------------------------------------------------------------------------
 # HTML Avanzado – Desarrollo Web
 
 ## 1. Elementos y Atributos Globales
@@ -736,7 +729,7 @@ Características clave:
 
 ---
 
-# Microdatos y marcado semántico avanzado
+## Microdatos y marcado semántico avanzado
 
 ## ¿Qué son los **Microdatos**?
 
@@ -1163,7 +1156,7 @@ ARIA **no agrega interactividad por sí sola**: si marcas un `<div role="button"
 - `aria-controls="submenu"` indica qué elemento controla el botón.
 - El script asegura que los estados cambien dinámicamente.
 
-# Buenas prácticas de SEO en HTML
+## Buenas prácticas de SEO en HTML
 
 El SEO (*Search Engine Optimization*) en HTML consiste en aplicar técnicas de marcado que permitan a los buscadores **entender, indexar y mostrar mejor el contenido de una página web**.
 
