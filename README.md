@@ -1,5 +1,57 @@
 # presentacion-html 5avanzado
 Exposicion
+# HTML BASICO 
+## 1. Introducción al HTML
+###Definición:
+- HTML (HyperText Markup Language) es el lenguaje de marcado que define la estructura de una página web.
+- No es un lenguaje de programación, sino de marcado → organiza contenido en títulos, párrafos, imágenes, etc.
+
+ ---
+## 2. Estructura mínima de un archivo HTML y etiquetas principales 
+<img width="496" height="406" alt="image" src="https://github.com/user-attachments/assets/5a1eea0c-6fad-428d-9d46-250934f9752f" />
+
+- `<html>`: Encierra todo el documento.
+- `<head>`: Contiene metadatos, título, enlaces a CSS/JS.
+- `<body>`: Todo el contenido visible.
+
+  
+ ----
+## 3. Formateo de texto
+- `<p>`: párrafo.
+- `<h1>` a `<h6>`: títulos (jerarquía).
+- `<strong>`: texto en negrita (con importancia).
+- `<em>`: texto en cursiva (énfasis).
+- `<br>`: salto de línea.
+- `<hr>`: línea horizontal.
+---
+## 4. Listas 
+- No ordenada(`<ul>`):viñetas.
+- Ordenada(`<ol>`):números
+- `<li>`:cada elemento.
+<img width="746" height="461" alt="image" src="https://github.com/user-attachments/assets/be505a3a-72e7-41b5-96b0-c461ef0c128a" />
+
+## 5. Imagenes
+- Se insertan con la etiqueta <img>.
+- Atributos principales:
+- src: ruta de la imagen.
+- alt: texto alternativo (muy importante para accesibilidad y SEO).
+
+`<img src="perro.jpg" alt="Un perro corriendo en el parque" width="300">`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # HTML Avanzado – Desarrollo Web
 
 ## 1. Elementos y Atributos Globales
