@@ -1,5 +1,66 @@
-# presentacion-html 5avanzado
-Exposicion
+
+<h1 align="center" >UNIVERSIDAD NACIONAL DEL CENTRO DEL PERÚ<h1>
+<h1  align="center">
+ Facultad de Ingeniería de Sistemas  
+ </h1>
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/af8d9db0-d1be-4c02-891c-5791bc5f07ea">
+</p>
+ <h1 align=center>HTML: Fundamentos Teóricos y Prácticos del Desarrollo Web</h1>
+
+ <h2> <b>Integrantes : </b></h2>
+
+<h3 align="center">
+ <ul>
+  <li> Chamorro Ninamango Ricardo Manuel</li>
+  <li> Hinostroza Meza Miguel Angel</li>
+  <li> Huallullo Morales Daysy Johana </li>
+  <li> Ramos Roca Frank </li>
+ </ul>
+  
+</h3>
+
+
+<h3 align=center > *Huancayo – Perú* </h3>
+<h3 align=center > 2025  </h3>
+ 
+--------------------------------------------------------------------------------------
+# *ÍNDICE*
+
+## HTML básico
+1. Introducción al HTML y estructura básica de un documento  
+2. Etiquetas principales `<html>`, `<head>`, `<body>`  
+3. Formateo de texto: `<p>`, `<h1>` a `<h6>`, `<strong>`, `<em>`, `<br>`, `<hr>`  
+4. Listas: `<ul>`, `<ol>`, `<li>`  
+5. Imágenes: `<img>` y atributos principales como src y alt  
+6. Enlaces: `<a>` y sus atributos como href y target  
+7. Tablas: `<table>`, `<tr>`, `<td>`, `<th>` y atributos relacionados  
+8. Formularios básicos: `<form>`, `<input>`, `<label>` 
+9. Comentarios en HTML <!-- -->  
+10. Estructura semántica básica: `<header>`, `<footer>, <main>, <section>, <article>`
+    
+
+## HTML avanzado
+1. Elementos y atributos globales (data-*, id, class, style, title)  
+2. Uso de <template> y <slot> para contenido dinámico  
+3. Elementos multimedia: <audio>, <video> y atributos principales  
+4. Integración de *SVG* y *Canvas* para gráficos  
+5. Formularios avanzados: validación y tipos de entrada (email, date, number, etc.)  
+6. API de HTML5: *Drag and Drop, **GeoLocation, **Web Storage* (LocalStorage y SessionStorage)  
+7. Microdatos y marcado semántico avanzado  
+8. Integración con *JavaScript*: eventos y manipulación del DOM  
+9. Técnicas de accesibilidad y etiquetado (aria-*)  
+10. Buenas prácticas de *SEO* en HTML
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
