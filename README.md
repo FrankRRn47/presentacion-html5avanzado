@@ -181,15 +181,15 @@ Exposicion
 
 <img width="183" height="203" alt="Captura de pantalla 2025-09-01 101909" src="https://github.com/user-attachments/assets/d887dab0-9b06-4d3f-aaf2-13ec73039ee7" />
 
-## 5. Imágenes: `<img>`
+## 6. Enlaces: `<a>`
 
 ### Definición técnica
-La etiqueta `<img>` se utiliza para insertar imágenes en documentos HTML.  
-Es un **elemento vacío** (no tiene cierre).  
+La etiqueta `<a>` crea hipervínculos a documentos, páginas, secciones o archivos.  
 Atributos principales:  
-- **src**: especifica la ruta de la imagen (local o URL).  
-- **alt**: texto alternativo para accesibilidad o cuando la imagen no carga.  
-- **width** y **height**: definen el tamaño.  
+- **href**: dirección de destino.  
+- **target**: modo de apertura (`_blank`, `_self`, `_parent`, `_top`).  
+- **title**: muestra información adicional al pasar el cursor.  
+
 
 ------------------------------------------------------------------------------------
 # HTML Avanzado – Desarrollo Web
