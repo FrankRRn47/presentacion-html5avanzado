@@ -2,7 +2,7 @@
 Exposicion
 <div style="border: 2px solid black; padding: 40px; margin: 20px auto; width: 21cm; height: 29.7cm; box-sizing: border-box;">
 
-
+# **TÍTULO DE LA MONOGRAFÍA**
 
 </div>
 
