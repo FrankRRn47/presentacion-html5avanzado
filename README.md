@@ -734,7 +734,7 @@ Características clave:
 
 ---
 
-## Microdatos y marcado semántico avanzado
+# 7 Microdatos y marcado semántico avanzado
 
 ## ¿Qué son los **Microdatos**?
 
@@ -899,7 +899,7 @@ Este ejemplo usa **estructura semántica completa**:
 - `<aside>` con información complementaria.
 - `<footer>` con derechos de autor.
 
-# Eventos y Manipulación del DOM con JavaScript
+# 8 Eventos y Manipulación del DOM con JavaScript
 
 En el desarrollo web, **JavaScript** es la pieza clave para dotar a una página de **interactividad**.
 
@@ -1052,7 +1052,7 @@ Explicación:
 - Se accede a la propiedad `style` del elemento.
 - Se alterna el color de fondo cada vez que se hace clic en el botón.
 
-# Accesibilidad Web: ARIA y Etiquetado
+# 9 Accesibilidad Web: ARIA y Etiquetado
 
 La accesibilidad web busca que todas las personas, incluidas aquellas con **discapacidad visual, auditiva, cognitiva o motora**, puedan **navegar, entender e interactuar** con las aplicaciones web. Dentro de este campo, las **WAI-ARIA (Accessible Rich Internet Applications)** son un conjunto de **atributos HTML** que permiten describir **roles, estados y propiedades** de elementos de la interfaz, especialmente en aplicaciones dinámicas y ricas en interacción.
 
@@ -1161,7 +1161,7 @@ ARIA **no agrega interactividad por sí sola**: si marcas un `<div role="button"
 - `aria-controls="submenu"` indica qué elemento controla el botón.
 - El script asegura que los estados cambien dinámicamente.
 
-## Buenas prácticas de SEO en HTML
+# 10 Buenas prácticas de SEO en HTML
 
 El SEO (*Search Engine Optimization*) en HTML consiste en aplicar técnicas de marcado que permitan a los buscadores **entender, indexar y mostrar mejor el contenido de una página web**.
 
