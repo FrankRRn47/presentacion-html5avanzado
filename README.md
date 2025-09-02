@@ -374,9 +374,9 @@ Atributos: **border**, **rowspan**, **colspan**.
 
 ### Definición técnica
 Los formularios permiten al usuario ingresar y enviar datos[1].  
-- **<form>**: contenedor.  
-- **<input>**: campo de datos (texto, correo, contraseña, checkbox, radio, submit).  
-- **<label>**: describe un campo, mejora accesibilidad.  
+- **`<form>`**: contenedor.  
+- **`<input>`**: campo de datos (texto, correo, contraseña, checkbox, radio, submit).  
+- **`<label>`**: describe un campo, mejora accesibilidad.  
 
 ### Ejemplos de código
 ```html
@@ -420,6 +420,7 @@ Los formularios permiten al usuario ingresar y enviar datos[1].
 </html>
 ```
 
+  
 ### Más información
 - Usar `required`, `placeholder`, `pattern` para validación.  
 - Se pueden incluir botones, selectores, áreas de texto.  
@@ -471,11 +472,11 @@ Sintaxis: `<!-- comentario -->`
 
 ### Definición técnica
 HTML5 introdujo etiquetas semánticas para dar significado al contenido:  
-- **<header>**: encabezado.  
-- **<footer>**: pie de página.  
-- **<main>**: contenido principal.  
-- **<section>**: agrupación de contenido.  
-- **<article>**: bloque independiente.  
+- **`<header>`**: encabezado.  
+- **`<footer>`**: pie de página.  
+- **`<main>`**: contenido principal.  
+- **`<section>`**: agrupación de contenido.  
+- **`<article>`**: bloque independiente.  
 
 ### Ejemplos de código
 ```html
