@@ -215,7 +215,7 @@ La metodología empleada se basa en la *revisión bibliográfica y documental* d
 
 ```
 
-<img width="737" height="715" alt="Captura de pantalla 2025-09-01 100942" src="https://github.com/user-attachments/assets/3cc9f43a-2af0-44ea-9acd-8dcd1e9004b6" />
+<img width="437" height="415" alt="Captura de pantalla 2025-09-01 100942" src="https://github.com/user-attachments/assets/3cc9f43a-2af0-44ea-9acd-8dcd1e9004b6" />
 
 
 ## 5. Imagenes
