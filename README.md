@@ -190,7 +190,13 @@ Atributos principales:
 - **target**: modo de apertura (`_blank`, `_self`, `_parent`, `_top`).  
 - **title**: muestra información adicional al pasar el cursor.  
 
-
+### Ejemplos de código
+```html
+<a href="pagina.html">Ir a otra página</a>
+<a href="https://google.com" target="_blank">Abrir Google en nueva pestaña</a>
+<a href="#seccion1">Ir a la sección 1</a>
+<a href="documentos/manual.pdf" download>Descargar manual</a>
+```
 ------------------------------------------------------------------------------------
 # HTML Avanzado – Desarrollo Web
 
