@@ -181,6 +181,16 @@ Exposicion
 
 <img width="183" height="203" alt="Captura de pantalla 2025-09-01 101909" src="https://github.com/user-attachments/assets/d887dab0-9b06-4d3f-aaf2-13ec73039ee7" />
 
+## 5. Imágenes: `<img>`
+
+### Definición técnica
+La etiqueta `<img>` se utiliza para insertar imágenes en documentos HTML.  
+Es un **elemento vacío** (no tiene cierre).  
+Atributos principales:  
+- **src**: especifica la ruta de la imagen (local o URL).  
+- **alt**: texto alternativo para accesibilidad o cuando la imagen no carga.  
+- **width** y **height**: definen el tamaño.  
+
 ------------------------------------------------------------------------------------
 # HTML Avanzado – Desarrollo Web
 
