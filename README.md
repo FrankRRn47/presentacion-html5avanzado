@@ -54,14 +54,34 @@
 
 
 ------------------------------------------------------
+# *INTRODUCCIÓN*
 
+## Presentación del tema  
+El lenguaje *HTML (HyperText Markup Language)* constituye la base para la creación de páginas web, ya que define la estructura y el contenido de los documentos en la World Wide Web. Su importancia radica en que, a pesar de los avances tecnológicos y la aparición de nuevas herramientas, HTML continúa siendo el estándar fundamental que garantiza la interoperabilidad y accesibilidad de la información en internet.  
+
+# OBJETIVO GENERAL Y ESPECÍFICOS  
+*Objetivo general:*  
+Analizar los fundamentos básicos y avanzados del lenguaje HTML, destacando su importancia en el desarrollo de aplicaciones y páginas web modernas.  
+
+*Objetivos específicos:*  
+1. Identificar la estructura básica de un documento HTML y sus etiquetas principales.  
+2. Describir el uso de elementos avanzados y atributos globales en la construcción de interfaces web.  
+3. Explicar la integración de HTML con tecnologías relacionadas como JavaScript, CSS y APIs de HTML5.  
+
+# JUSTIFICACIÓN  
+La elección de este tema se justifica porque el dominio de HTML constituye una competencia esencial para estudiantes y profesionales de informática y tecnología. Comprender su estructura, etiquetas y evolución permite desarrollar soluciones web adaptables a distintos contextos y dispositivos. Además, el estudio de HTML favorece la formación académica y profesional, ya que actúa como base para aprender otros lenguajes, marcos y herramientas de programación.  
+
+# METODOLOGÍA
+La metodología empleada se basa en la *revisión bibliográfica y documental* de fuentes académicas y técnicas, complementada con la *sistematización de ejemplos prácticos* que permiten ilustrar el uso de HTML en contextos reales de desarrollo web.  
+
+# DESARROLLO 
 # HTML BÁSICO 
 ## 1. Introducción al HTML
 ###Definición:
 - HTML (HyperText Markup Language) es el lenguaje de marcado que define la estructura de una página web.
 - No es un lenguaje de programación, sino de marcado → organiza contenido en títulos, párrafos, imágenes, etc.
 
- ---
+---
 ## 2. Estructura mínima de un archivo HTML y etiquetas principales 
 ```html
 <!DOCTYPE html>
@@ -1566,7 +1586,8 @@ Este código integra todo lo anterior y se puede abrir en el navegador para ver 
 </html>
 
 ```
-
+# CONCLUSIÓN 
+El análisis realizado permite comprender que *HTML es el pilar fundamental del desarrollo web*, pues establece la estructura lógica de las páginas y facilita la integración con otras tecnologías como CSS y JavaScript. Se identificó la relevancia de las etiquetas semánticas para la accesibilidad y el posicionamiento en buscadores, así como la utilidad de los formularios, tablas y listas en la organización del contenido. Además, se destacó la importancia de las APIs de HTML5 para extender la funcionalidad de las aplicaciones web modernas y la necesidad de aplicar buenas prácticas de accesibilidad y SEO en el diseño de interfaces digitales.  
 
 
 
