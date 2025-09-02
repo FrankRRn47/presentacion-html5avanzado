@@ -1584,6 +1584,21 @@ Este código integra todo lo anterior y se puede abrir en el navegador para ver 
 
 - Se identificó la relevancia de las etiquetas semánticas para la accesibilidad y el posicionamiento en buscadores, así como la utilidad de los formularios, tablas y listas en la organización del contenido. Además, se destacó la importancia de las APIs de HTML5 para extender la funcionalidad de las aplicaciones web modernas y la necesidad de aplicar buenas prácticas de accesibilidad y SEO en el diseño de interfaces digitales.  
 
+<div style="border: 2px solid black; padding: 40px; margin: 20px auto; width: 21cm; height: 29.7cm; box-sizing: border-box; position: relative;">
+
+# *Referencias bibliográficas*
+
+A continuación, se presentan las fuentes consultadas empleando el formato de citación IEEE:
+
+[1] “HTML: HyperText Markup Language,” MDN Web Docs, último acceso: 2025-09-01. [En línea]. Disponible en: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+[2] WHATWG, “HTML Standard (Living Standard),” WHATWG HTML Spec, última actualización: 5 agosto 2025. [En línea]. Disponible en: https://html.spec.whatwg.org/multipage/
+
+[3] W3C, “HTML5 – W3C Recommendation 28 October 2014,” World Wide Web Consortium, 2014. [En línea]. Disponible en: https://www.w3.org/TR/2014/REC-html5-20141028/
+
+</div>
+
+
 
 
 
