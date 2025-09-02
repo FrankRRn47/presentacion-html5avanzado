@@ -197,6 +197,27 @@ Atributos principales:
 <a href="#seccion1">Ir a la sección 1</a>
 <a href="documentos/manual.pdf" download>Descargar manual</a>
 ```
+
+### Ejemplo de código completo
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de enlaces</title>
+</head>
+<body>
+  <h1>Enlaces útiles</h1>
+  <p><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></p>
+  <p><a href="contacto.html">Ir a la página de contacto</a></p>
+  <p><a href="#pie">Ir al pie de página</a></p>
+
+  <footer id="pie">
+    <p>© 2025 Ejemplo</p>
+  </footer>
+</body>
+</html>
+```
 ------------------------------------------------------------------------------------
 # HTML Avanzado – Desarrollo Web
 
