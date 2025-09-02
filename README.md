@@ -50,7 +50,7 @@
 # *INTRODUCCIÓN*
 
 ## Presentación del tema  
-El lenguaje *HTML (HyperText Markup Language)* constituye la base para la creación de páginas web, ya que define la estructura y el contenido de los documentos en la World Wide Web. Su importancia radica en que, a pesar de los avances tecnológicos y la aparición de nuevas herramientas, HTML continúa siendo el estándar fundamental que garantiza la interoperabilidad y accesibilidad de la información en internet.  
+El lenguaje *HTML (HyperText Markup Language)* constituye la base para la creación de páginas web, ya que define la estructura y el contenido de los documentos en la World Wide Web. Su importancia radica en que, a pesar de los avances tecnológicos y la aparición de nuevas herramientas, HTML continúa siendo el estándar fundamental que garantiza la interoperabilidad y accesibilidad de la información en internet[1].  
 
 # OBJETIVO GENERAL Y ESPECÍFICOS  
 *Objetivo general:*  
@@ -71,8 +71,8 @@ La metodología empleada se basa en la *revisión bibliográfica y documental* d
 # HTML BÁSICO 
 ## 1. Introducción al HTML
 ###Definición:
-- HTML (HyperText Markup Language) es el lenguaje de marcado que define la estructura de una página web.
-- No es un lenguaje de programación, sino de marcado → organiza contenido en títulos, párrafos, imágenes, etc.
+- HTML (HyperText Markup Language) es el lenguaje de marcado que define la estructura de una página web[1].
+- No es un lenguaje de programación, sino de marcado → organiza contenido en títulos, párrafos, imágenes, etc[2].
 
 ---
 ## 2. Estructura mínima de un archivo HTML y etiquetas principales 
@@ -247,7 +247,7 @@ La metodología empleada se basa en la *revisión bibliográfica y documental* d
 ## 6. Enlaces: `<a>`
 
 ### Definición técnica
-La etiqueta `<a>` crea hipervínculos a documentos, páginas, secciones o archivos.  
+La etiqueta `<a>` crea hipervínculos a documentos, páginas, secciones o archivos[2].  
 Atributos principales:  
 - **href**: dirección de destino.  
 - **target**: modo de apertura (`_blank`, `_self`, `_parent`, `_top`).  
@@ -291,7 +291,7 @@ Atributos principales:
 ## 7. Tablas: `<table>`, `<tr>`, `<td>`, `<th>`
 
 ### Definición técnica
-Las tablas organizan información en filas y columnas.  
+Las tablas organizan información en filas y columnas[3].  
 Etiquetas:  
 - **`<table>`**: tabla.  
 - **`<tr>`**: fila.  
@@ -354,7 +354,7 @@ Atributos: **border**, **rowspan**, **colspan**.
 ## 8. Formularios: `<form>`, `<input>`, `<label>`
 
 ### Definición técnica
-Los formularios permiten al usuario ingresar y enviar datos.  
+Los formularios permiten al usuario ingresar y enviar datos[1].  
 - **<form>**: contenedor.  
 - **<input>**: campo de datos (texto, correo, contraseña, checkbox, radio, submit).  
 - **<label>**: describe un campo, mejora accesibilidad.  
@@ -410,7 +410,7 @@ Los formularios permiten al usuario ingresar y enviar datos.
 ## 9. Comentarios en HTML
 
 ### Definición técnica
-Los comentarios permiten documentar el código sin que aparezca en la página.  
+Los comentarios permiten documentar el código sin que aparezca en la página[3].  
 Sintaxis: `<!-- comentario -->`  
 
 ### Ejemplos de código
@@ -513,7 +513,7 @@ HTML5 introdujo etiquetas semánticas para dar significado al contenido:
 # HTML Avanzado – Desarrollo Web
 
 ## 1. Elementos y Atributos Globales
-Los atributos globales pueden aplicarse a la mayoría de elementos HTML.  
+Los atributos globales pueden aplicarse a la mayoría de elementos HTML[1].  
 Algunos de los más importantes son:
 
 - **id**: identificador único para un elemento.  
@@ -542,7 +542,7 @@ Los elementos `<template>` y `<slot>` permiten manejar contenido dinámico en HT
 ```
 ## 3. Elementos Multimedia
 
-HTML incluye soporte nativo para reproducir contenido multimedia como **audio** y **video**.  
+HTML incluye soporte nativo para reproducir contenido multimedia como **audio** y **video**[3].  
 Estos elementos ofrecen atributos que permiten controlar su comportamiento:
 
 - **controls**: muestra botones de control como reproducir, pausar o volumen.  
@@ -577,7 +577,7 @@ HTML proporciona dos formas principales de trabajar con gráficos:
 ##  5. Formularios Avanzados
 
 Con **HTML5**, los formularios se volvieron más potentes gracias a nuevos tipos de entrada y validaciones integradas.  
-Esto mejora la experiencia del usuario y reduce la necesidad de validaciones complejas con **JavaScript**.
+Esto mejora la experiencia del usuario y reduce la necesidad de validaciones complejas con **JavaScript**[1].
 
 ## Características principales
 
@@ -605,14 +605,14 @@ Esto mejora la experiencia del usuario y reduce la necesidad de validaciones com
 ```
 ## 6. API de HTML5: Drag and Drop, GeoLocation, Web Storage (LocalStorage ySessionStorage).:
 ### API
-Una **API** en programación significa **Application Programming Interface** (Interfaz de Programación de Aplicaciones).
+Una **API** en programación significa **Application Programming Interface** (Interfaz de Programación de Aplicaciones)[1].
 
-En palabras simples, es un **conjunto de reglas, funciones y protocolos** que permiten que diferentes programas, aplicaciones o sistemas se comuniquen entre sí.
+En palabras simples, es un **conjunto de reglas, funciones y protocolos** que permiten que diferentes programas, aplicaciones o sistemas se comuniquen entre sí[2].
 
 ---
 ### Definición técnica:
 
-Una API define **cómo un software puede interactuar con otro** especificando qué operaciones están disponibles, qué parámetros deben usarse y qué resultados se esperan. Es como un contrato que indica qué puede hacer un programa con otro, sin necesidad de conocer su funcionamiento interno.
+Una API define **cómo un software puede interactuar con otro** especificando qué operaciones están disponibles, qué parámetros deben usarse y qué resultados se esperan. Es como un contrato que indica qué puede hacer un programa con otro, sin necesidad de conocer su funcionamiento interno[1].
 
 ![image.png](image.png)
 
@@ -766,7 +766,7 @@ Aquí integramos todo: un elemento arrastrable, una zona de soltado, eventos, es
 
 ## API de Geolocalización en HTML5
 
-La **Geolocation API** permite a las aplicaciones web obtener la **ubicación geográfica del usuario** (latitud, longitud, altitud, velocidad, etc.) siempre que el usuario otorgue permiso.
+La **Geolocation API** permite a las aplicaciones web obtener la **ubicación geográfica del usuario** (latitud, longitud, altitud, velocidad, etc.) siempre que el usuario otorgue permiso[1].
 
 Características clave:
 
@@ -922,7 +922,7 @@ Aquí te dejo un ejemplo con **HTML + JS**, mostrando la posición en pantalla y
 
 # Almacenamiento Web (Web Storage API)
 
-La **Web Storage API** proporciona un mecanismo para que las aplicaciones web almacenen datos de forma estructurada en el navegador mediante **pares clave/valor**. A diferencia de las cookies, no se envían automáticamente en cada petición HTTP, lo que reduce sobrecarga en el tráfico y mejora el rendimiento de la aplicación [MDN, 2025].
+La **Web Storage API** proporciona un mecanismo para que las aplicaciones web almacenen datos de forma estructurada en el navegador mediante **pares clave/valor**. A diferencia de las cookies, no se envían automáticamente en cada petición HTTP, lo que reduce sobrecarga en el tráfico y mejora el rendimiento de la aplicación [1].
 
 Existen dos mecanismos principales de almacenamiento:
 
@@ -1000,7 +1000,7 @@ Características clave:
 
 ## SessionStorage
 
-El objeto **sessionStorage** guarda datos **únicamente mientras dure la sesión del navegador**. Cuando se cierra la pestaña o ventana, toda la información almacenada se elimina automáticamente.
+El objeto **sessionStorage** guarda datos **únicamente mientras dure la sesión del navegador**. Cuando se cierra la pestaña o ventana, toda la información almacenada se elimina automáticamente[2].
 
 Características clave:
 
@@ -1066,9 +1066,9 @@ Características clave:
 
 ## ¿Qué son los **Microdatos**?
 
-Los **microdatos** son un estándar de HTML que permite incrustar **metadatos legibles por máquinas** directamente en el marcado.
+Los **microdatos** son un estándar de HTML que permite incrustar **metadatos legibles por máquinas** directamente en el marcado[1].
 
-Se usan junto con vocabularios como [**schema.org**](https://schema.org/?utm_source=chatgpt.com), que definen tipos (`Product`, `Person`, `Event`, `Article`, etc.) y sus propiedades.
+Se usan junto con vocabularios como [**schema.org**](https://schema.org/?utm_source=chatgpt.com), que definen tipos (`Product`, `Person`, `Event`, `Article`, etc.) y sus propiedades[3].
 
 Los atributos principales son:
 
@@ -1086,7 +1086,7 @@ Beneficios:
 
 ## ¿Qué es el **marcado semántico avanzado**?
 
-El **HTML semántico** significa usar etiquetas que **describen el propósito del contenido**, no solo su apariencia.
+El **HTML semántico** significa usar etiquetas que **describen el propósito del contenido**, no solo su apariencia[1].
 
 Ejemplos de etiquetas semánticas en HTML5:
 
@@ -1229,7 +1229,7 @@ Este ejemplo usa **estructura semántica completa**:
 
 # 8.  Eventos y Manipulación del DOM con JavaScript
 
-En el desarrollo web, **JavaScript** es la pieza clave para dotar a una página de **interactividad**.
+En el desarrollo web, **JavaScript** es la pieza clave para dotar a una página de **interactividad**[1].
 
 Esto se logra principalmente mediante:
 
@@ -1240,7 +1240,7 @@ Esto se logra principalmente mediante:
 
 ## ¿Qué es un evento?
 
-Un **evento** es una señal que el navegador genera cuando ocurre algo en la página.
+Un **evento** es una señal que el navegador genera cuando ocurre algo en la página[3].
 
 Ejemplos de eventos:
 
@@ -1291,7 +1291,7 @@ Explicación:
 
 ## Manipulación del DOM
 
-El **DOM** es la estructura en memoria que representa el HTML.
+El **DOM** es la estructura en memoria que representa el HTML[1].
 
 JavaScript puede:
 
@@ -1382,11 +1382,11 @@ Explicación:
 
 # 9. Accesibilidad Web: ARIA y Etiquetado
 
-La accesibilidad web busca que todas las personas, incluidas aquellas con **discapacidad visual, auditiva, cognitiva o motora**, puedan **navegar, entender e interactuar** con las aplicaciones web. Dentro de este campo, las **WAI-ARIA (Accessible Rich Internet Applications)** son un conjunto de **atributos HTML** que permiten describir **roles, estados y propiedades** de elementos de la interfaz, especialmente en aplicaciones dinámicas y ricas en interacción.
+La accesibilidad web busca que todas las personas, incluidas aquellas con **discapacidad visual, auditiva, cognitiva o motora**, puedan **navegar, entender e interactuar** con las aplicaciones web. Dentro de este campo, las **WAI-ARIA (Accessible Rich Internet Applications)** son un conjunto de **atributos HTML** que permiten describir **roles, estados y propiedades** de elementos de la interfaz, especialmente en aplicaciones dinámicas y ricas en interacción[3].
 
 ## ¿Qué es ARIA y por qué se usa?
 
-- ARIA extiende la semántica de HTML, agregando información adicional que los **lectores de pantalla** y otras tecnologías asistivas pueden interpretar.
+- ARIA extiende la semántica de HTML, agregando información adicional que los **lectores de pantalla** y otras tecnologías asistivas pueden interpretar[2].
 - Su objetivo principal es **complementar** a HTML, no reemplazarlo. La recomendación siempre es:
     
     👉 *“Primero usa etiquetas semánticas nativas, y solo si no existen, aplica ARIA”*.
@@ -1491,7 +1491,7 @@ ARIA **no agrega interactividad por sí sola**: si marcas un `<div role="button"
 
 # 10. Buenas prácticas de SEO en HTML
 
-El SEO (*Search Engine Optimization*) en HTML consiste en aplicar técnicas de marcado que permitan a los buscadores **entender, indexar y mostrar mejor el contenido de una página web**.
+El SEO (*Search Engine Optimization*) en HTML consiste en aplicar técnicas de marcado que permitan a los buscadores **entender, indexar y mostrar mejor el contenido de una página web**[3].
 
 ### Puntos clave para un HTML optimizado para SEO:
 
