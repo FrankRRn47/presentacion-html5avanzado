@@ -1,5 +1,12 @@
 # presentacion-html 5avanzado
 Exposicion
+<div style="border: 2px solid black; padding: 40px; margin: 20px auto; width: 21cm; height: 29.7cm; box-sizing: border-box;">
+
+
+
+</div>
+
+
 # HTML BÁSICO 
 ## 1. Introducción al HTML
 ###Definición:
