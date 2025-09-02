@@ -1,10 +1,26 @@
 # presentacion-html 5avanzado
 Exposicion
-<div style="border: 2px solid black; padding: 40px; margin: 20px auto; width: 21cm; height: 29.7cm; box-sizing: border-box;">
+<div style="border: 2px solid black; padding: 40px; margin: 20px auto; width: 21cm; height: 29.7cm; box-sizing: border-box; position: relative;">
 
-# **TÍTULO DE LA MONOGRAFÍA**
+# **ÍNDICE**
+
+1. **Introducción** .............................................. 1  
+2. **Marco Teórico** ............................................ 3  
+   2.1 Antecedentes ............................................... 4  
+   2.2 Fundamentos ................................................ 6  
+3. **Metodología** ............................................... 10  
+4. **Resultados** ................................................. 15  
+5. **Conclusiones** ............................................... 20  
+6. **Referencias** ................................................. 25  
+7. **Anexos** ...................................................... 30  
+
+<footer style="position: absolute; bottom: 20px; right: 40px; font-size: 12px; font-family: 'Times New Roman', serif;">
+Página 01
+</footer>
 
 </div>
+
+
 
 
 # HTML BÁSICO 
