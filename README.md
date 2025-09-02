@@ -8,18 +8,11 @@
  <h1 align=center>HTML: Fundamentos Teóricos y Prácticos del Desarrollo Web</h1>
 
  <h2> <b>Integrantes : </b></h2>
-
-<h3 align="center">
- <ul>
-  <li> Chamorro Ninamango Ricardo Manuel</li>
-  <li> Hinostroza Meza Miguel Angel</li>
-  <li> Huallullo Morales Daysy Johana </li>
-  <li> Ramos Roca Frank </li>
- </ul>
-  
-</h3>
-
-
+<h3 >  -Chamorro Ninamango Ricardo Manuel</h3>
+<h3 >  -Hinostroza Meza Miguel Angel </h3>
+<h3 >  -Huallullo Morales Daysy Johana </h3>
+<h3 >  -Ramos Roca Frank  </h3>
+ 
 <h3 align=center > Huancayo – Perú </h3>
 <h3 align=center > 2025  </h3>
  
@@ -547,7 +540,7 @@ Los elementos `<template>` y `<slot>` permiten manejar contenido dinámico en HT
   <p>Texto desde el template</p>
 </template>
 ```
-### 3. Elementos Multimedia
+## 3. Elementos Multimedia
 
 HTML incluye soporte nativo para reproducir contenido multimedia como **audio** y **video**.  
 Estos elementos ofrecen atributos que permiten controlar su comportamiento:
@@ -564,7 +557,7 @@ Estos elementos ofrecen atributos que permiten controlar su comportamiento:
   <source src="video.mp4" type="video/mp4">
 </video>
 ```
-### 4. Integración de SVG y Canvas
+## 4. Integración de SVG y Canvas
 
 HTML proporciona dos formas principales de trabajar con gráficos:
 
@@ -581,7 +574,7 @@ HTML proporciona dos formas principales de trabajar con gráficos:
   <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="2" fill="lightblue" />
 </svg>
 ```
-# 5. Formularios Avanzados
+##  5. Formularios Avanzados
 
 Con **HTML5**, los formularios se volvieron más potentes gracias a nuevos tipos de entrada y validaciones integradas.  
 Esto mejora la experiencia del usuario y reduce la necesidad de validaciones complejas con **JavaScript**.
@@ -625,7 +618,7 @@ Una API define **cómo un software puede interactuar con otro** especificando qu
 
 ![image.png](image%201.png)
 
-# API Drag and Drop en HTML5
+## API Drag and Drop en HTML5
 
 La **API de Arrastrar y Soltar (Drag and Drop)** permite a los usuarios mover elementos dentro de la interfaz de una página web.
 
@@ -771,7 +764,7 @@ Aquí integramos todo: un elemento arrastrable, una zona de soltado, eventos, es
 
 ```
 
-# API de Geolocalización en HTML5
+## API de Geolocalización en HTML5
 
 La **Geolocation API** permite a las aplicaciones web obtener la **ubicación geográfica del usuario** (latitud, longitud, altitud, velocidad, etc.) siempre que el usuario otorgue permiso.
 
@@ -1069,7 +1062,7 @@ Características clave:
 
 ---
 
-# 7 Microdatos y marcado semántico avanzado
+# 7. Microdatos y marcado semántico avanzado
 
 ## ¿Qué son los **Microdatos**?
 
@@ -1234,7 +1227,7 @@ Este ejemplo usa **estructura semántica completa**:
 - `<aside>` con información complementaria.
 - `<footer>` con derechos de autor.
 
-# 8 Eventos y Manipulación del DOM con JavaScript
+# 8.  Eventos y Manipulación del DOM con JavaScript
 
 En el desarrollo web, **JavaScript** es la pieza clave para dotar a una página de **interactividad**.
 
@@ -1387,7 +1380,7 @@ Explicación:
 - Se accede a la propiedad `style` del elemento.
 - Se alterna el color de fondo cada vez que se hace clic en el botón.
 
-# 9 Accesibilidad Web: ARIA y Etiquetado
+# 9. Accesibilidad Web: ARIA y Etiquetado
 
 La accesibilidad web busca que todas las personas, incluidas aquellas con **discapacidad visual, auditiva, cognitiva o motora**, puedan **navegar, entender e interactuar** con las aplicaciones web. Dentro de este campo, las **WAI-ARIA (Accessible Rich Internet Applications)** son un conjunto de **atributos HTML** que permiten describir **roles, estados y propiedades** de elementos de la interfaz, especialmente en aplicaciones dinámicas y ricas en interacción.
 
@@ -1496,7 +1489,7 @@ ARIA **no agrega interactividad por sí sola**: si marcas un `<div role="button"
 - `aria-controls="submenu"` indica qué elemento controla el botón.
 - El script asegura que los estados cambien dinámicamente.
 
-# 10 Buenas prácticas de SEO en HTML
+# 10. Buenas prácticas de SEO en HTML
 
 El SEO (*Search Engine Optimization*) en HTML consiste en aplicar técnicas de marcado que permitan a los buscadores **entender, indexar y mostrar mejor el contenido de una página web**.
 
@@ -1587,7 +1580,9 @@ Este código integra todo lo anterior y se puede abrir en el navegador para ver 
 
 ```
 # CONCLUSIÓN 
-El análisis realizado permite comprender que *HTML es el pilar fundamental del desarrollo web*, pues establece la estructura lógica de las páginas y facilita la integración con otras tecnologías como CSS y JavaScript. Se identificó la relevancia de las etiquetas semánticas para la accesibilidad y el posicionamiento en buscadores, así como la utilidad de los formularios, tablas y listas en la organización del contenido. Además, se destacó la importancia de las APIs de HTML5 para extender la funcionalidad de las aplicaciones web modernas y la necesidad de aplicar buenas prácticas de accesibilidad y SEO en el diseño de interfaces digitales.  
+ - El análisis realizado permite comprender que *HTML es el pilar fundamental del desarrollo web*, pues establece la estructura lógica de las páginas y facilita la integración con otras tecnologías como CSS y JavaScript. 
+
+- Se identificó la relevancia de las etiquetas semánticas para la accesibilidad y el posicionamiento en buscadores, así como la utilidad de los formularios, tablas y listas en la organización del contenido. Además, se destacó la importancia de las APIs de HTML5 para extender la funcionalidad de las aplicaciones web modernas y la necesidad de aplicar buenas prácticas de accesibilidad y SEO en el diseño de interfaces digitales.  
 
 
 
