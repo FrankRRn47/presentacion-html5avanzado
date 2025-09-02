@@ -218,6 +218,234 @@ Atributos principales:
 </body>
 </html>
 ```
+
+### Más información
+- `target="_blank"` requiere atributo `rel="noopener noreferrer"` para seguridad.  
+- Se pueden usar enlaces internos para navegación en la misma página.  
+
+---
+
+## 7. Tablas: `<table>`, `<tr>`, `<td>`, `<th>`
+
+### Definición técnica
+Las tablas organizan información en filas y columnas.  
+Etiquetas:  
+- **`<table>`**: tabla.  
+- **`<tr>`**: fila.  
+- **`<td>`**: celda estándar.  
+- **`<th>`**: celda de encabezado.  
+Atributos: **border**, **rowspan**, **colspan**.  
+
+### Ejemplos de código
+```html
+<table border="1">
+  <tr><th>Nombre</th><th>Edad</th></tr>
+  <tr><td>Ana</td><td>22</td></tr>
+  <tr><td>Luis</td><td>30</td></tr>
+</table>
+
+<table border="1">
+  <tr><th>Producto</th><th colspan="2">Detalles</th></tr>
+  <tr><td rowspan="2">Laptop</td><td>Marca</td><td>HP</td></tr>
+  <tr><td>Precio</td><td>$800</td></tr>
+</table>
+```
+
+### Ejemplo de código completo
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de tabla</title>
+</head>
+<body>
+  <h1>Lista de estudiantes</h1>
+  <table border="1">
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Carrera</th>
+    </tr>
+    <tr>
+      <td>María</td>
+      <td>25</td>
+      <td>Ingeniería</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td>27</td>
+      <td>Medicina</td>
+    </tr>
+  </table>
+</body>
+</html>
+```
+
+### Más información
+- Evitar usar `border` directamente, mejor con CSS.  
+- Usar `<thead>`, `<tbody>` y `<tfoot>` para mayor semántica.  
+
+---
+
+## 8. Formularios: `<form>`, `<input>`, `<label>`
+
+### Definición técnica
+Los formularios permiten al usuario ingresar y enviar datos.  
+- **<form>**: contenedor.  
+- **<input>**: campo de datos (texto, correo, contraseña, checkbox, radio, submit).  
+- **<label>**: describe un campo, mejora accesibilidad.  
+
+### Ejemplos de código
+```html
+<form action="/procesar" method="post">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
+  <input type="submit" value="Enviar">
+</form>
+
+<form>
+  <input type="email" placeholder="Correo">
+  <input type="password" placeholder="Contraseña">
+  <input type="checkbox" id="acepto">
+  <label for="acepto">Acepto términos</label>
+</form>
+```
+
+### Ejemplo de código completo
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de formulario</title>
+</head>
+<body>
+  <h1>Registro de usuario</h1>
+  <form action="/registro" method="post">
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" name="usuario" required><br><br>
+
+    <label for="email">Correo:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="clave">Contraseña:</label>
+    <input type="password" id="clave" name="clave"><br><br>
+
+    <input type="submit" value="Registrar">
+  </form>
+</body>
+</html>
+```
+
+### Más información
+- Usar `required`, `placeholder`, `pattern` para validación.  
+- Se pueden incluir botones, selectores, áreas de texto.  
+
+---
+
+## 9. Comentarios en HTML
+
+### Definición técnica
+Los comentarios permiten documentar el código sin que aparezca en la página.  
+Sintaxis: `<!-- comentario -->`  
+
+### Ejemplos de código
+```html
+<!-- Este es un comentario -->
+<p>Texto visible</p>
+
+<!-- Comentario de
+     varias líneas -->
+```
+
+### Ejemplo de código completo
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de comentarios</title>
+</head>
+<body>
+  <!-- Encabezado principal -->
+  <h1>Página de prueba</h1>
+
+  <p>Contenido visible</p>
+
+  <!-- Este es el pie de página -->
+  <footer>© 2025</footer>
+</body>
+</html>
+```
+
+### Más información
+- Útiles para explicar secciones del código.  
+- No deben usarse para ocultar datos sensibles.  
+
+---
+
+## 10. Estructura semántica básica
+
+### Definición técnica
+HTML5 introdujo etiquetas semánticas para dar significado al contenido:  
+- **<header>**: encabezado.  
+- **<footer>**: pie de página.  
+- **<main>**: contenido principal.  
+- **<section>**: agrupación de contenido.  
+- **<article>**: bloque independiente.  
+
+### Ejemplos de código
+```html
+<header><h1>Mi Sitio</h1></header>
+<main>
+  <section>
+    <article>
+      <h2>Artículo 1</h2>
+      <p>Contenido...</p>
+    </article>
+  </section>
+</main>
+<footer>© 2025</footer>
+```
+
+### Ejemplo de código completo
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de estructura semántica</title>
+</head>
+<body>
+  <header>
+    <h1>Blog de tecnología</h1>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <h2>Noticia 1</h2>
+        <p>Detalles de la noticia...</p>
+      </article>
+      <article>
+        <h2>Noticia 2</h2>
+        <p>Detalles de la segunda noticia...</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 BlogTech</p>
+  </footer>
+</body>
+</html>
+```
+
+### Más información
+- Ayuda a la accesibilidad y SEO.  
+- Reemplaza estructuras antiguas con `<div>` genéricos.  
+
 ------------------------------------------------------------------------------------
 # HTML Avanzado – Desarrollo Web
 
