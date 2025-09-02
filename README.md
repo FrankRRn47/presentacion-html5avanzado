@@ -281,6 +281,7 @@ Atributos principales:
 </body>
 </html>
 ```
+<p><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></p>
 
 ### Más información
 - `target="_blank"` requiere atributo `rel="noopener noreferrer"` para seguridad.  
@@ -345,6 +346,24 @@ Atributos: **border**, **rowspan**, **colspan**.
 </html>
 ```
 
+<h1>Lista de estudiantes</h1>
+  <table border="1">
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Carrera</th>
+    </tr>
+    <tr>
+      <td>María</td>
+      <td>25</td>
+      <td>Ingeniería</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td>27</td>
+      <td>Medicina</td>
+    </tr>
+  </table>
 ### Más información
 - Evitar usar `border` directamente, mejor con CSS.  
 - Usar `<thead>`, `<tbody>` y `<tfoot>` para mayor semántica.  
