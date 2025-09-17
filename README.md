@@ -648,7 +648,8 @@ Se basa en tres pilares:
 2. **El objeto `DataTransfer`** → Transporta los datos del elemento arrastrado.
 3. **Eventos de arrastre y soltado** → Controlan el ciclo de interacción.
 
-![image.png](image%202.png)
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSahRRt5s-5iCHlJoCFwyHyNr1qp1EyhNzzyg&s" 
+       alt="Gatito" width="150">
 
 ---
 
