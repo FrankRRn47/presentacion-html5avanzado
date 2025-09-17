@@ -634,9 +634,8 @@ En palabras simples, es un **conjunto de reglas, funciones y protocolos** que pe
 
 Una API define **cómo un software puede interactuar con otro** especificando qué operaciones están disponibles, qué parámetros deben usarse y qué resultados se esperan. Es como un contrato que indica qué puede hacer un programa con otro, sin necesidad de conocer su funcionamiento interno[1].
 
-![image.png](image.png)
-
-![image.png](image%201.png)
+<img src="https://depalma.io/hubfs/api-integration.jpg" 
+       alt="Gatito" width="150">
 
 ## API Drag and Drop en HTML5
 
